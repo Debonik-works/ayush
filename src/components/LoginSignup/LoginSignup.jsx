@@ -6,6 +6,7 @@ import password_icon from "../Assets/password.png";
 
 function LoginSignup() {
   const [action, setAction] = useState("Login");
+
   return (
     <div className="container">
       <div className="header">
