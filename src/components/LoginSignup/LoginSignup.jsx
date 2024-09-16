@@ -42,16 +42,16 @@ function LoginSignup() {
       )}
 
       <div className="submit-container">
-        <Link to="/RegistrationForm">
-          <div
-            className={action === "Login" ? "submit gray" : "submit"}
-            onClick={() => {
-              setAction("Sign Up");
-            }}
-          >
-            Sign up
-          </div>
-        </Link>
+        {/* <Link to="/RegistrationForm"> */}
+        <div
+          className={action === "Login" ? "submit gray" : "submit"}
+          onClick={() => {
+            setAction("Sign Up");
+          }}
+        >
+          Sign up
+        </div>
+        {/* </Link> */}
         <div
           className={action === "Sign Up" ? "submit gray" : "submit"}
           onClick={() => {
