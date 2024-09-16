@@ -61,6 +61,9 @@ function LoginSignup() {
           Login
         </div>
       </div>
+      <Link to="/Registration">
+        <button className="Enter">Enter</button>
+      </Link>
     </div>
   );
 }

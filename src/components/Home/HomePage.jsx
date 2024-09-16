@@ -59,7 +59,7 @@ function HomePage() {
           <li>Submit your proposal and business plan.</li>
           <li>Our team will review and get back to you with the next steps.</li>
         </ol>
-        <Link to="/Login">
+        <Link to="/LoginSignup">
           <button className="apply-btn">Apply Now</button>
         </Link>
       </section>

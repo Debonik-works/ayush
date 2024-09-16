@@ -15,7 +15,7 @@ function App() {
           <Link to="/" className="nav-link">
             Home
           </Link>
-          <Link to="/login" className="nav-link">
+          <Link to="/LoginSignup" className="nav-link">
             Login
           </Link>
           <Link to="/registration" className="nav-link">
@@ -26,7 +26,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<LoginSignup />} />
+        <Route path="/LoginSignup" element={<LoginSignup />} />
         <Route path="/registration" element={<RegistrationForm />}></Route>
       </Routes>
 
